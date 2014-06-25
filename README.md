@@ -4,9 +4,9 @@ helper-codeigniter-fecha-espanol
 Helper codeigniter Fecha en español
 
 TABLA DE FORMATOS Y RESULTADOS.
-
-Formatos  |   Resultados
------------------------------------
+```
+FORMATOS  |   RESULTADOS
+-------------------------------------
 d/m/a 	  |   25/06/2014
 d-m-a 	  |   25-06-2014
 d.m.a 	  |   25.06.2014
@@ -14,6 +14,7 @@ d M a 	  |   25 Jun 2014
 d F a 	  |   25 Junio 2014
 D d M a	  |   Mar 25 Jun 2014
 L d F a	  |   Martes 25 Junio 2014
+```
 
 FORMA DE USO:
 
@@ -25,10 +26,11 @@ FORMATO es la una de las filas de la tabla de foarmatos y resultados arriba.
 HORA opcional puede ser TRUE que muestra la hora, FALSE no muestra la hora.
 
 Ejemplo:
-
+```
 $fecha = date("Y-m-d");
 echo fecha_es($fecha, "d M a"); //Resultado: 25 Jun 2014
 
 $fecha = date("Y-m-d H:i:s");
 echo fecha_es($fecha, "d M a", TRUE); //Resultado: 25 Jun 2014 13:30:40
+```
 
