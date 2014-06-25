@@ -17,6 +17,7 @@ L d F a	  |   Martes 25 Junio 2014
 ```
 
 FORMA DE USO:
+=============
 
 1.- Instanciar el helper fechaes_helper en su proyecto ya sea en el constructor de su controlador, en cada metodo o en el autoload de codeigniter.
 
@@ -33,4 +34,6 @@ echo fecha_es($fecha, "d M a"); //Resultado: 25 Jun 2014
 $fecha = date("Y-m-d H:i:s");
 echo fecha_es($fecha, "d M a", TRUE); //Resultado: 25 Jun 2014 13:30:40
 ```
+
+www.webapu.com
 
