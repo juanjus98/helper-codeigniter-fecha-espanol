@@ -13,5 +13,5 @@ $fecha = fecha_es("2014-06-25 13:30:40", "L d F a", TRUE);
 /*
 Utilizamos la funcion fecha_es(fecha del formato MySQL sin hora, formato que queremos que nos retorne);
 */
-$fecha = fecha_es("2014-06-25 13:30:40", "L d F a", TRUE);
+$fecha = fecha_es("2014-06-25", "L d F a", TRUE);
 //Resultado Miercoles 25 Junio 2014
